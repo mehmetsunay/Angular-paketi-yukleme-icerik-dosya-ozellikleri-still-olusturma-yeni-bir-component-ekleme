@@ -1,0 +1,19 @@
+
+<!--İNDEX.HTML SAYFAMDAKİ APP-ROOT KISMININ İÇERİĞİNİ BU SAYFA OLUŞTURMAKTADIR-->
+<!--APP.COMPONENT.TS DE BULUNAN CLASS İÇERİSİNDEKİLERİ ÇEKİP YAZDIRDIM-->
+<!--DAHİL ETTİĞİM BOOSTRAP KUT.DEN BİR ÖZELLİĞİ CLASS YARDIMIYLA VERDİM-->
+<h1 class="bg-light">BU BİR ANGULAR DERSİDİR</h1>
+
+<h2>{{title}}</h2>
+
+<h2>{{ getTitle()}}</h2>
+
+<p>
+ {{ todoItem.description }}
+ {{ todoItem.action }}
+
+</p>
+
+<!--ana componetim olan app.compnent içerisne yeni componentimin selectorunu gömüyorum-->
+<!--sebebi ise tek component üzerinden diğer compnentimi de kullanmak-->
+<todo></todo>

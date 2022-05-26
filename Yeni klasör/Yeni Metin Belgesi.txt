@@ -1,0 +1,8 @@
+my-app-kopya
+
+
+angular paketi yukleme
+içerik dosya özellikleri
+still oluşturma
+yeni bir component ekleme
+
